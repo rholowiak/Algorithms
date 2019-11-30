@@ -17,6 +17,9 @@ public class ListMain {
         ListUtilities.display(list);
         System.out.println(list.get(3));
         list.set(23, 1);
+        list.swap(2,6);
+        ListUtilities.display(list);
+        ListUtilities.insertSort(list);
         ListUtilities.display(list);
     }
 }
